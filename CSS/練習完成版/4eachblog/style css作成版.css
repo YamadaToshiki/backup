@@ -1,7 +1,6 @@
-header{width:100%;
-       height:50px;
-       background-color:black;
+html, body{ height: 100%;  /* ブラウザ画面の高さをmaxで使用するという意味 */
 }
+
 header ul{list-style-type:none;
           color:white;
 }
@@ -15,6 +14,8 @@ header ul li{float:left;
 
 main{clear:left;
      width:100%;
+    min-width: 1220px;
+    max-width: 1220px;
 }
 
 main h1{border-left:solid 8px black;
